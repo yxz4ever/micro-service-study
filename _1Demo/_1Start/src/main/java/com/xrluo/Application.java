@@ -1,4 +1,4 @@
-package com.xrluo._1start;
+package com.xrluo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
