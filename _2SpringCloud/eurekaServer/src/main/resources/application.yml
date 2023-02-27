@@ -1,0 +1,16 @@
+server:
+  port: 7000
+
+spring:
+  application:
+    name: eurekaServer
+
+eureka:
+  instance:
+    hostname: eurekaServer
+  client:
+    service-url:
+      defaultZone: http://www.xrluo.com/eureka
+    register-with-eureka: false
+    #    是否从服务注册中心 获取注册中心
+    fetch-registry: false
