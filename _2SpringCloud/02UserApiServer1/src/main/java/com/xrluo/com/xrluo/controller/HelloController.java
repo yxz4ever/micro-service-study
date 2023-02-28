@@ -9,7 +9,7 @@ public class HelloController {
 
     @RequestMapping
     public String index() {
-        System.out.println("02UserApiServer");
+        System.out.println("02UserApiServer1");
         return "hello";
     }
 }
