@@ -1,0 +1,9 @@
+server:
+  port: 8403
+spring:
+  application:
+    name: UserApiServer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://www.xrluo.com/eureka

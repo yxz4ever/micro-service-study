@@ -1,6 +1,7 @@
 package com.xrluo.controller;
 
 import com.xrluo.entity.vo.UserVo;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -37,7 +38,7 @@ public class HelloController {
     }
 
     @RequestMapping
-    public String index3() {
-        return "默认防蚊液";
+    public String index3(HttpServletRequest httpRequest) {
+        return "端口号为：" + httpRequest.getServerPort();
     }
 }
