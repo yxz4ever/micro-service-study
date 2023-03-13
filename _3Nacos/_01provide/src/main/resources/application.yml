@@ -1,0 +1,17 @@
+server:
+  port: 11000
+spring:
+  application:
+    name: ProvideService
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.137.128:8848
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include: '*'
+
+
