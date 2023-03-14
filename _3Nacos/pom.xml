@@ -18,6 +18,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>_01provide</module>
+        <module>_02consumer</module>
     </modules>
 
     <properties>

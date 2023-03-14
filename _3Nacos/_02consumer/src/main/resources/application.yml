@@ -1,0 +1,10 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://192.168.137.128:8848
+        group: provide
